@@ -46,7 +46,7 @@ class Counter
         self::$count++;
         $this->number = self::$count;
     }
-    
+
     public function getNumber(): int
     {
         return $this->number;
